@@ -46,7 +46,7 @@ let personal = [];
             //saving to localStorage
             localStorage.setItem('QueryDataList', JSON.stringify(personal) );
 			alert("Your Query has been Submitted");
-			window.location.href="index.html";
+			window.location.href="../index.html";
         }
 	}
         document.addEventListener('DOMContentLoaded', ()=>{
